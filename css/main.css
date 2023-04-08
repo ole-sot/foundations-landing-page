@@ -1,0 +1,20 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0 auto;
+    /* min-height: 100vh; */
+    max-width: 1200px;
+}
+
+header,
+.hero-section,
+.info-cards-section,
+.quote-section,
+.cta-section,
+footer {
+    margin: 0 10%;
+    /* margin: 0 auto; */
+    display: flex;
+}
