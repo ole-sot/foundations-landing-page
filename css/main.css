@@ -19,6 +19,15 @@ footer {
     display: flex;
 }
 
+button {
+    font-family: 'roboto';
+    color: #e5e7eb;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: .4em;
+}
+
 /* Header section */
 header {
     background-color: #1f2937;
@@ -48,4 +57,44 @@ header {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 1.8rem;
+}
+
+/* hero section */
+.hero-section {
+    background-color: #1f2937;
+    padding-bottom: 6.85em;
+    justify-content: space-between;
+}
+
+.hero-section article {
+    min-width: 23em;
+    max-width: 40em;
+    margin-right: 2em;
+}
+
+article h1 {
+    color: #f9faf8;
+    font-size: 4.8rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+article p {
+    color: #e5e7eb;
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.hero-section button {
+    background-color: #3882f6;
+    margin: .8em 0;
+    border-width: 0;
+}
+
+.hero-image {
+    background-color: #4e5c6f;
+    size: 15em 30em;
+    min-width: 30em;
+    max-width: 50em;
+    flex: auto;
 }
