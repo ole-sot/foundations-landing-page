@@ -3,9 +3,8 @@ html {
 }
 
 body {
-    /* background-color: #1f2937; */
+    background-color: #1f2937;
     margin: 0 auto;
-    /* min-height: 100vh; */
     max-width: 1200px;
 }
 
@@ -24,7 +23,7 @@ button {
     color: #e5e7eb;
     font-size: 1.8rem;
     font-weight: bold;
-    padding: 8px 16px;
+    padding: .8em 2.4em;
     border-radius: .4em;
 }
 
@@ -59,7 +58,7 @@ header {
     font-size: 1.8rem;
 }
 
-/* hero section */
+/* Hero section */
 .hero-section {
     background-color: #1f2937;
     padding-bottom: 6.85em;
@@ -93,8 +92,121 @@ article p {
 
 .hero-image {
     background-color: #4e5c6f;
-    size: 15em 30em;
     min-width: 30em;
     max-width: 50em;
     flex: auto;
+}
+
+/* Info cards section*/
+.info-cards-section {
+    background-color: white;
+    padding-bottom: 8em;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-cards-section h2 {
+    color: #1f2937;
+    font-size: 3.6rem;
+    margin: 3.4rem 0;
+}
+
+.cards-container {
+    display: flex;
+    gap: .8em;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .8em;
+}
+
+.card img {
+    border: .4em;
+    border-style: solid;
+    border-radius: .8em;
+    border-color: #3882f6;
+    width: 15em;
+    height: 15em;
+}
+
+.card p {
+    color: #4e5c6f;
+    max-width: 10em;
+    text-align: center;
+}
+
+/* Quote section */
+.quote-section {
+    color: #4e5c6f;
+    background-color: #e5e7eb;
+    margin: 0;
+    flex-direction: column;
+}
+
+.quote-section blockquote {
+    font-size: 3.6rem;
+    font-style: italic;
+    margin: 0;
+}
+
+.quote-section blockquote p {
+    margin: 8rem 0 0 8rem;
+}
+
+.quote-section figcaption {
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: right;
+    margin: 2rem 0 8rem 0;
+}
+
+/* Call to action section */
+.cta-section {
+    background-color: white;
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+
+.cta-container {
+    background-color: #3882f6;
+    padding: 4em;
+    border-radius: .8em;
+    display: flex;
+    gap: .8em;
+    flex: auto;
+    justify-content: space-evenly;
+}
+
+.cta-container article h3 {
+    color: #f9faf8;
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.cta-container button {
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    color: #f9faf8;
+    border-style: solid;
+    min-width: max-content;
+    align-self: center;
+}
+
+/* Footer */
+footer {
+    background-color: #1f2937;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #e5e7eb;
+    font-size: 1.8rem;
 }
